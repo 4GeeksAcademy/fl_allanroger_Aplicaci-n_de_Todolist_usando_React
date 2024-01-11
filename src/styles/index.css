@@ -10,3 +10,35 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    margin-top: 80px; 
+}
+
+h1{
+    text-align: center;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.btnAdd {
+    display: none;
+}
+
+.btnRemove{
+    color: red;
+    background: none; 
+    border: none;
+    float: inline-end;
+    visibility: hidden;
+}
+
+.list-group-item:hover .btnRemove{
+    visibility: visible;
+}
+
+.itemCounter{
+    color: lightgray;
+}
